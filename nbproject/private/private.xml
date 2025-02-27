@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/FollowServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/css/style.css</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/landing.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/update.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/admin.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/result.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/PostServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/login.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/LogoutServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/help.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/DatabaseConnection.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/index.html</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/LoginServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/profile.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/users.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/DeleteServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/delete.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/superadmin.jsp</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/CreateUserServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/src/java/com/ust/database/webapplicationdb/HelpServlet.java</file>
+            <file>file:/C:/Users/win10/Documents/NetBeansProjects/WebApplicationDB/web/create.jsp</file>
+        </group>
+    </open-files>
+</project-private>

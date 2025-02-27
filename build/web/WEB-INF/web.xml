@@ -1,0 +1,92 @@
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>WebApplicationDB</display-name>
+
+    <!-- Welcome Page -->
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout Servlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Servlet -->
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Servlet -->
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Help Servlet -->
+    <servlet>
+        <servlet-name>HelpServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.HelpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelpServlet</servlet-name>
+        <url-pattern>/HelpServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Super Admin Servlet -->
+    <servlet>
+        <servlet-name>SuperAdminServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.SuperAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuperAdminServlet</servlet-name>
+        <url-pattern>/SuperAdminServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Post Servlet (Fixed) -->
+    <servlet>
+        <servlet-name>PostServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostServlet</servlet-name>
+        <url-pattern>/PostServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Follow Servlet (Fixed) -->
+    <servlet>
+        <servlet-name>FollowServlet</servlet-name>
+        <servlet-class>com.ust.database.webapplicationdb.FollowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FollowServlet</servlet-name>
+        <url-pattern>/FollowServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

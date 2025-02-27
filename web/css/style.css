@@ -1,0 +1,91 @@
+
+body {
+    background-color: #121212; 
+    color: #FFFFFF; 
+    font-family: 'Circular', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff4081;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff4081;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f50057;
+}
+
+/* Forms */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    background-color: #222222;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #ff4081;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #181818;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+th {
+    background-color: #282828;
+}
+
+td {
+    color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+}
